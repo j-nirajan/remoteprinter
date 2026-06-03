@@ -1,0 +1,17 @@
+/* Basic responsive styles for Remote Printer */
+:root{--accent:#1e88e5;--muted:#666}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;margin:0;color:#222;line-height:1.5}
+.container{max-width:900px;margin:0 auto;padding:1rem}
+.site-header{background:#f8f9fb;border-bottom:1px solid #eee}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.logo{margin:0;font-size:1.2rem;color:var(--accent)}
+nav a{margin-left:1rem;color:var(--muted);text-decoration:none}
+.hero{padding:2rem 0}
+.hero h2{margin:0 0 .5rem}
+.cta .btn{background:var(--accent);color:#fff;padding:.6rem 1rem;border-radius:6px;text-decoration:none}
+.features{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:700px){.features{grid-template-columns:1fr 1fr}}
+.multilang{margin-top:1.5rem;padding:1rem;background:#fff9e6;border-left:4px solid #ffd966}
+.site-footer{border-top:1px solid #eee;padding:1rem 0;margin-top:2rem;background:#fafafa}
+.btn:focus{outline:2px solid #00000022}
